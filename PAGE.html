@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝔹𝕠𝕣𝕓𝕠𝕝𝕖𝕥-𝕒𝕔𝕔𝕤𝕖𝕤𝕠𝕣𝕚𝕠𝕤</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilo para el cuerpo del documento */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Far.pinterest.com%2Fpin%2F318137161167529814%2F&psig=AOvVaw3SsQ3cZbAh5LOvIHNkHyFU&ust=1707849973081000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKi964y7poQDFQAAAAAdAAAAABAE'); /* Imagen de fondo */
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Estilo para el contenedor principal */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Estilo para la barra de navegación superior */
+        .navbar {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            width: 100%;
+            z-index: 1000;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Estilo para el contenido principal */
+        .main-content {
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 60px; /* Ajusta según el tamaño de la barra de navegación */
+            text-align: center;
+        }
+
+        /* Estilo para las imágenes */
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 30%; /* Ajustar según el número de imágenes */
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        /* Estilo para el formulario */
+        form {
+            max-width: 300px; /* Ancho máximo del formulario */
+            margin: 0 auto; /* Centrar el formulario */
+            background-color: #fff; /* Color de fondo del formulario */
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input,
+        textarea {
+            width: calc(100% - 20px); /* Ancho del 100% menos el espacio del padding */
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc; /* Borde ligero */
+            border-radius: 5px; /* Bordes redondeados */
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #76D7C4;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #58D68D;
+        }
+
+        /* Estilo para el pie de página */
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer img {
+            height: 50px; /* Ajusta el tamaño del logo según sea necesario */
+        }
+
+        /* Estilo para la barra de navegación inferior */
+        .bottom-navbar {
+            background-color: #b3e0ff; /* Color azulado claro */
+            color: #fff;
+            padding: 10px 20px;
+            width: 100%;
+            text-align: center;
+            clear: both;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <h1 style="text-align: center;">𝔹𝕠𝕣𝕓𝕠𝕝𝕖𝕥-𝕒𝕔𝕔𝕤𝕖𝕤𝕠𝕣𝕚𝕠𝕤</h1>
+        <p style="text-align: center;">Accesorios hechos a mano con la calidad y precio ideal para que vistas con tu outfit.</p>
+        <div id="galeria" class="section">
+            <!-- Galería de imágenes -->
+            <h2>Galería</h2>
+            <div class="gallery">
+                <img src="https://i.pinimg.com/564x/0d/ed/0f/0ded0fcb44b5d15b6065b69cf63c4418.jpg" alt="Imagen 1">
+                <img src="https://mulata-co.myshopify.com/cdn/shop/products/AL11878-300x300_copy_800x.jpg?v=1522444225" alt="Imagen 2">
+                <img src="https://img.clasf.co/2020/03/11/Aretes-Largos-Mostacilla-Para-Mujer-A-Mano-Topos-En-Bronce-20200311090945.1999700015.jpg" alt="Imagen 3">
+                <img src="https://cloud.corferias.co/service/vitrina_virtual/product_image.cfm?id=76788&shop_id=10&type=2" alt="Imagen 4">
+                <img src="https://studiofco.vteximg.com.br/arquivos/ids/1520378-1000-1071/-stfco-producto-Bisuteria-NARANJA-S505895A-1.jpg?v=638312749578970000" alt="Imagen 5">
+            </div>
+        </div>
+
+        <!-- Sección sobre nosotros -->
+        <div id="nosotros" class="section">
+            <h2>Sobre nosotros</h2>
+            <p>Texto sobre nosotros...</p>
+        </div>
+
+        <!-- Sección de compra -->
+        <div id="compra" class="section">
+            <h2>Compra</h2>
+            <p>Texto de compra...</p>
+        </div>
+
+        <!-- Sección de contacto -->
+        <div id="contacto" class="section">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Barra de navegación superior -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#nosotros">Sobre nosotros</a></li>
+            <li><a href="#compra">Compra</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Barra de navegación inferior -->
+    <nav class="bottom-navbar">
+        <ul>
+            <li><a href="#politicas">Políticas de privacidad</a></li>
+        </ul>
+    </nav>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <img src="https://www.aquasocialmedia.com/images/Web/Blog/2016/Marzo/politica-de-privacidad.png" alt="Logo">
+    </footer>
+</body>
+</html>
